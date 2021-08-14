@@ -10,18 +10,6 @@ echo.
 echo.
 echo.
 
-
-
-
-
-
-
-
-
-
-
-
-
 echo Welcome To My First Batch Game There Are Secrets Hidden Everywhere Figure One Out And
 echo You Might Get Rewarded! 
 echo HAVE FUN!
@@ -44,41 +32,21 @@ echo.
 echo Hope You Enjoy This Very Editable Game! 
 echo ........................................................................................................................................................................
 echo SCROLL UP TO SEE EVERYTHING!
-set /p choice=ANS:
+set /p choice=ANS
 if %choice%==1 goto start
 if %choice%==2 goto YT
 if %choice%==3 goto Iwitter
 if %choice%==4 goto Settings
-if %choice%==5 goto github
+if %choice%==5 goto goto github
 if %choice%==6 goto Source
 if %choice%==7 goto exit
 
 
-:start 
+:1 start
 start game.cmd
-exit
 
 :YT
-start https://www.youtube.com/thebeast0253 
+start https://www.youtube.com/thebeast0253
+pause 
 exit
-
 :Twitter
-start https://twitter.com/TheBeast0253_FN
-exit
-
-:settings 
-
-start settings.cmd
-exit
-
-:github
-start https://github.com/TheBeast0253-Codes/Open-Source-Batch-Game
-exit
-
-:source
-
-
-
-
-:exit
-exit
